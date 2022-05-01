@@ -29,5 +29,6 @@ server.get("*", (req, res) => {
 server.listen(port, () => {
     console.log("")
     console.log(`Servidor iniciado na porta ${port}!`)
+    console.log(`http://localhost:${port}`)
     console.log("")
 })
